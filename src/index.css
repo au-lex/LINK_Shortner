@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+ .menuLinkContaine {
+     top: -20rem;
+        transition: .6s ease-in-out;
+        scale: .01;
+      }
+
+
+      .menuLinkContaine.active {
+      top: 0;
+      scale: 1;
+      }
