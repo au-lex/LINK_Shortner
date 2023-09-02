@@ -14,7 +14,7 @@ const Head = () => {
         <>
              <section className="mainContainer ">
         <section className="menuContainer flex justify-between lg:flex lg:space-around 
-          lg:px-72 lg:mt-6 px-4 pt-4">
+          lg:px-72 lg:mt-6 px-4 pt-4   xl:px-40">
           
           <div className="logo flex space-x-10">
             <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
@@ -75,23 +75,32 @@ const Head = () => {
           </div>
              </figure>
 
-          <figcaption className="text-center px-6 mt-5  lg:hidden">
+          <figcaption className="text-center px-6 mt-5  lg:hidden xl:hidden">
                 <h1 className=" text-[2.4rem] font-semibold ">
   More than just  shorter links</h1>
   <p className="text-slate-400 mb-8 ">  Build your brand’s recognition and get detailed   insights 
   on how your links are performing.</p>
-  <button className="bg  bg-green-400  text-slate-100 py-2 px-8 font-semibold  rounded-[25px] ">  Get Started</button>
-            </figcaption>
-
-          <figcaption className=" px-6  mt-5 hidden lg:block   lg:pl-[18rem]  ">
-                <h1 className=" text-[4rem]  lg:text-[3.8rem] font-semibold  lg:leading-[5.5rem]">
-  More than just <br /> shorter links</h1>
-  <p className="text-slate-400 mb-8  lg:my-[2rem] ">  Build your brand’s recognition and get detailed <br />   insights 
-  on how your links are performing.</p>
   <button className="bg  bg-btn  text-slate-100 py-2 px-8 font-semibold  rounded-[25px] ">  Get Started</button>
             </figcaption>
 
-            <figure className=" overflow-hidden mt-6 hidden lg:block">
+          <figcaption className=" px-6  mt-5 hidden lg:block   lg:pl-[18rem]  xl:hidden">
+                <h1 className=" text-[4rem]  lg:text-[3.8rem] font-semibold  lg:leading-[5.5rem]  xl:w-full xl:leading-[2.5rem] ">
+  More than just <br /> shorter links</h1>
+  <p className="text-slate-400 mb-8  lg:my-[2rem] ">  Build your brand’s recognition and get detailed <br />   insights 
+  on how your links are performing.</p>
+  <button className="  bg-btn  text-slate-100 py-2   px-8 font-semibold  rounded-[25px] ">  Get Started</button>
+            </figcaption>
+
+          <figcaption className=" px-6  mt-5 hidden lg:hidden   xl:pl-[10rem]  xl:block">
+                <h1 className=" text-[4rem]  lg:text-[3.8rem] font-semibold  lg:leading-[5.5rem] xl:text-[4rem] xl:w-full 
+                xl:leading-[5.5rem] ">
+  More than just shorter links</h1>
+  <p className="text-slate-400 mb-8  lg:my-[2rem] ">  Build your brand’s recognition and get detailed <br />   insights 
+  on how your links are performing.</p>
+  <button className="  bg-btn  text-slate-100 py-2   px-8 font-semibold  rounded-[25px] ">  Get Started</button>
+            </figcaption>
+
+            <figure className=" overflow-hidden mt-6 hidden lg:block xl:overflow-hidden ">
           <div className="w-[900px] h-[500px] pl-10 ">
             <img src="https://res.cloudinary.com/durbee4ln/image/upload/v1692352827/illustration-working_pguccw.svg" alt=""
              className=" w-[100%]" />
