@@ -14,7 +14,7 @@ const Head = () => {
         <>
              <section className="mainContainer ">
         <section className="menuContainer flex justify-between lg:flex lg:space-around 
-          lg:px-72 lg:mt-6 px-10 pt-4">
+          lg:px-72 lg:mt-6 px-4 pt-4">
           
           <div className="logo flex space-x-10">
             <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
@@ -43,7 +43,7 @@ const Head = () => {
               
                 <section className=" lg:flex space-x-10">
                 <a href="#" className="block capitalize ">Login</a>
-                <a href="#" className="    text-slate-100 font-semibold   lg:bg-green-700  lg:py-2 px-10 rounded-[25px] block capitalize
+                <a href="#" className="    text-slate-100 font-semibold   lg:bg-btn  lg:py-2 px-10 rounded-[25px] block capitalize
               
                 "> sign up</a>
                 </section>
@@ -52,17 +52,17 @@ const Head = () => {
         </section>
         <div className="sidbar px-2 flex justify-center relative lg:hidden">
 
-        <section className={`menuLinkContaine bg-slate-900 text-slate-100 rounded-2xl h-[22rem] w-[22rem] absolute px-4 
+        <section className={`menuLinkContaine bg-bg text-slate-100 rounded-2xl h-[22rem] w-[20rem] absolute px-4 
         ${isMenuActive ? 'active' : ''}`}>
                    
                 <section className="getLinks text-center pt-8 ">
-                <a  href="#" className="block capitalize font-bold my-4 text-[1.2rem]"> features</a>
-                <a href="#" className="block capitalize font-bold my-4"> pricing</a>
-                <a href="#" className="block capitalize font-bold my-6">Resouurces</a>
+                <a  href="#" className="block capitalize font-semibold my-4 text-[1.2rem]"> features</a>
+                <a href="#" className="block capitalize font-semibold my-4"> pricing</a>
+                <a href="#" className="block capitalize font-semibold my-6">Resouurces</a>
                 </section>
                 <section className="login text-center px-9 mt-8 border-t-2 border-t-slate-700">
-                <a href="#" className="block capitalize font-bold mb-6  pt-6">Login</a>
-                <a href="#" className=" bg-green-400  text-slate-100 py-2 font-semibold  rounded-[25px] block capitalize "> sign up</a>
+                <a href="#" className="block capitalize font-semibold mb-6  pt-6">Login</a>
+                <a href="#" className=" bg-btn  text-slate-100 py-2 font-semibold  rounded-[25px] block capitalize "> sign up</a>
                 </section>
             </section>
         </div>
@@ -84,11 +84,11 @@ const Head = () => {
             </figcaption>
 
           <figcaption className=" px-6  mt-5 hidden lg:block   lg:pl-[18rem]  ">
-                <h1 className=" text-[4rem]  font-semibold  lg:leading-[5.5rem]">
+                <h1 className=" text-[4rem]  lg:text-[3.8rem] font-semibold  lg:leading-[5.5rem]">
   More than just <br /> shorter links</h1>
   <p className="text-slate-400 mb-8  lg:my-[2rem] ">  Build your brand’s recognition and get detailed <br />   insights 
   on how your links are performing.</p>
-  <button className="bg  bg-green-400  text-slate-100 py-2 px-8 font-semibold  rounded-[25px] ">  Get Started</button>
+  <button className="bg  bg-btn  text-slate-100 py-2 px-8 font-semibold  rounded-[25px] ">  Get Started</button>
             </figcaption>
 
             <figure className=" overflow-hidden mt-6 hidden lg:block">
