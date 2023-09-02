@@ -5,11 +5,11 @@ const Footer = () => {
         <>
            <section className="footerContainer">
 
-            <div className="imgContainer  bg-violet-700  h-[20rem] w-full">
+            <div className="imgContainer  bg-bga  h-[20rem] w-full">
             <section className='abso  flex justify-center flex-col  pt-24 ' > 
                  <h1 className='  text-center  font-semibold text-[1.8rem] text-slate-100 '>Boost your links today</h1>
-                 <div className='flex justify-center flex-col px-10  pt-6 lg:ml-[52rem]'>
-               <button className='py-3 px-2 font-semibold w-full text-[1.2rem] lg:w-[10rem] bg-green-600  text-slate-100
+                 <div className='flex justify-center flex-col px-10  pt-6 lg:ml-[45rem]'>
+               <button className='py-3 px-2 font-semibold w-full text-[1.2rem] lg:w-[10rem] bg-btn  text-slate-100
                rounded-[36px]  text-center
                
                '>Get started</button>
@@ -26,22 +26,22 @@ const Footer = () => {
               
                     <ul className='text-center'>
                         <h2 className='font-bold text-[1.2rem] text-slate-300 my-6'>Features</h2>
-                        <li className='font-medium text-[1.1rem] text-slate-300 my-2'>Link Shortening</li>
-                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2'>Branded Links</li>
-                        <li  className='font-medium  text-[1.1rem] text-slate-300 my-2'>Analytics</li>
+                        <li className='font-medium text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Link Shortening</li>
+                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Branded Links</li>
+                        <li  className='font-medium  text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Analytics</li>
                     </ul>
                     <ul className='text-center'>
                         <h2 className='font-bold text-[1.2rem] text-slate-300 my-6'>Resources</h2>
-                        <li className='font-medium text-[1.1rem] text-slate-300 my-2'>Blog</li>
-                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2'>Developers</li>
-                        <li  className='font-semibold text-[1.1rem] text-slate-300 my-2'>Support</li>
+                        <li className='font-medium text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Blog</li>
+                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Developers</li>
+                        <li  className='font-semibold text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Support</li>
                     </ul>
                     <ul className='text-center  '>
                         <h2 className='font-bold text-[1.2rem] text-slate-300 my-6'>Company</h2>
                         <li className='font-medium text-[1.1rem] text-slate-300 my-2'>About</li>
-                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2'>Our Team</li>
-                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2'>Carreers</li>
-                        <li  className='font-medium  text-[1.1rem] text-slate-300 my-2'>Contact</li>
+                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Our Team</li>
+                        <li className='font-medium  text-[1.1rem] text-slate-300 my-2 hover:text-btn transition-all delay-350 '>Carreers</li>
+                        <li  className='font-medium  text-[1.1rem] text-slate-300 my-2  hover:text-btn transition-all delay-350'>Contact</li>
                     </ul>
                   
                     <div className="footerIcons flex justify-center space-x-12 pb-10 py-10">
